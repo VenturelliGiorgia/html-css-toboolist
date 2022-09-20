@@ -4,15 +4,49 @@
     padding: 0;
 }
 
+main {
+    padding: 2rem 5rem;
+    background-color: #f6f8f9;
+}
+
 header {
     background-color: #ffffff;
 
 }
 
+nav {
+    border-bottom-width: 2.5px;
+    border-bottom-style: solid;
+    border-bottom-color: #f6f8f9;
+    padding-top: 1.5rem;
+}
+
 .title-header {
-    display: inline;
+    display: inlin;
     font-size: 40px;
     font-weight: bold;
     vertical-align: top;
     font-family: arial;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 920px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.badge {
+    border-radius: 3px;
+    background-color: rgb(0 153 223);
+    color: white;
+    padding: 0.5rem;
+}
+
+.badge-grey {
+    border: 1.5px solid rgb(175, 175, 175);
+    border-radius: 4px;
+    background-color: rgb(255 255 255);
+    color: rgb(175, 175, 175);
+    padding: 0.5rem;
 }
