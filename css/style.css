@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial;
+}
+
 main {
     padding: 2rem 5rem;
     background-color: #f6f8f9;
@@ -49,4 +53,15 @@ nav {
     background-color: rgb(255 255 255);
     color: rgb(175, 175, 175);
     padding: 0.5rem;
+}
+
+.badge-blue {
+    border-radius: 15px;
+    background-color: rgb(20 170 241);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+}
+
+.distanziamento {
+    padding-top: 1.5rem;
 }
