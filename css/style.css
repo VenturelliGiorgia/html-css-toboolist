@@ -26,7 +26,7 @@ nav {
 }
 
 .title-header {
-    display: inlin;
+    display: inline;
     font-size: 40px;
     font-weight: bold;
     vertical-align: top;
@@ -59,16 +59,60 @@ nav {
     border-radius: 15px;
     background-color: rgb(20 170 241);
     color: rgb(255, 255, 255);
-    padding: 0.5rem;
+    padding: 0.4rem;
+    display: inline-block;
+    font-size: 12px;
 }
 
 .badge-violet {
     border-radius: 15px;
     background-color: rgb(137 77 191);
     color: rgb(255, 255, 255);
-    padding: 0.5rem;
+    padding: 0.4rem;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.badge-light-blue {
+    border-radius: 15px;
+    background-color: rgb(57, 199, 173);
+    color: rgb(255, 255, 255);
+    padding: 0.4rem;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.badge-orange {
+    border-radius: 15px;
+    background-color: rgb(255 155 0);
+    color: rgb(255, 255, 255);
+    padding: 0.4rem;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.badge-pink {
+    border-radius: 15px;
+    background-color: rgb(235 76 161);
+    color: rgb(255, 255, 255);
+    padding: 0.4rem;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.badge-green {
+    border-radius: 15px;
+    background-color: rgb(166 209 0);
+    color: rgb(255, 255, 255);
+    padding: 0.4rem;
+    display: inline-block;
+    font-size: 12px;
 }
 
 .distanziamento {
     padding-top: 1.5rem;
+}
+
+.distanziamento-elenco {
+    padding-bottom: 0.5rem;
 }
